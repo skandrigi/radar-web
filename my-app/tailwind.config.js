@@ -17,6 +17,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundImage: {
+        "gradient-custom": "linear-gradient(135deg, #28338B, #5A0428)",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
