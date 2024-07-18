@@ -26,8 +26,8 @@ export default function Home() {
           <FaGooglePlay/>
         </div>
       </main>
-      <div className="pattern-zigzag-3d pattern-blue-500 pattern-bg-white 
-        pattern-size-6 pattern-opacity-20 w-full h-full">
+      <div className="pattern-zigzag-3d pattern-blue-500 pattern-bg-black 
+        pattern-size-6 pattern-opacity-20 w-full h-full bg-black">
           zzzzzzzzzzzzzzzzzzzzzzzz
       </div>
   
