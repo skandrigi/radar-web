@@ -9,7 +9,7 @@ export default function Home() {
       </header>
       <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-gradient-custom">
         <div>
-        Page
+          Page
         </div>
       </main>
     </div>
