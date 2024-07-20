@@ -23,16 +23,18 @@ export default function Home() {
             Your Campus, Your Events. Based in College Station.
           </div>
           <div className="flex flex-row items-center justify-center mt-8 mb-6 text-white">
-            <div className="mr-5 p-5 border border-white rounded bg-gradient-download"> 
-              <FaApple/>
-            </div>
-            <div className="ml-5 p-5 border border-white rounded bg-gradient-download">
-              <FaGooglePlay/>
-            </div>
+          <a className="mr-5 p-5 border border-white rounded bg-gradient-download shadow-2xl hover:shadow-none hover:text-2xl hover:border-2" href="" target="_blank"> 
+            <FaApple/>
+          </a>
+          <a className="ml-5 p-5 border border-white rounded bg-gradient-download hover:shadow-none hover:text-2xl hover:border-2" href="" target="_blank">
+            <FaGooglePlay/>
+          </a>
           </div>
         </main>
-        <div className="pattern-zigzag-3d pattern-blue-500 pattern-bg-black pattern-size-6 pattern-opacity-20 w-full h-full bg-black text-white">
-            hi
+        <div className="w-full h-full bg-black text-white">
+          <a className="text-8xl text-white flex font-bold items-center justify-center min-h-screen hover:underline" href="https://bit.ly/3x4FTdK" target="_blank">
+            00:00:00
+          </a>
         </div>
       </section>
       <section id="faq">
