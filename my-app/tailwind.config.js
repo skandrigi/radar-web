@@ -18,7 +18,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "gradient-custom": "linear-gradient(135deg, #28338B, #5A0428)",
+        'gradient-custom': 'linear-gradient(135deg, #28338B, #5A0428)',
+        'gradient-download': 'linear-gradient(190deg, #ad5389,#3c1053)',
       },
       keyframes: {
         "accordion-down": {
@@ -37,4 +38,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

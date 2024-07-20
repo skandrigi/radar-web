@@ -23,10 +23,10 @@ export default function Home() {
             Your Campus, Your Events. Based in College Station.
           </div>
           <div className="flex flex-row items-center justify-center mt-8 mb-6 text-white">
-            <div className="mr-5 p-4 border border-white rounded bg-gradient-custom"> 
+            <div className="mr-5 p-5 border border-white rounded bg-gradient-download"> 
               <FaApple/>
             </div>
-            <div className="ml-5 p-4 border border-white rounded bg-gradient-custom">
+            <div className="ml-5 p-5 border border-white rounded bg-gradient-download">
               <FaGooglePlay/>
             </div>
           </div>
