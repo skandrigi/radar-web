@@ -22,13 +22,13 @@ export default function Home() {
           <div className="text-xl mt-6 sm:ml-4">
             Your Campus, Your Events. Based in College Station.
           </div>
-          <div className="flex flex-row items-center justify-center mt-8 mb-6 text-white">
-          <a className="mr-5 p-5 border border-white rounded bg-gradient-download shadow-2xl hover:shadow-none hover:text-2xl hover:border-2" href="" target="_blank"> 
-            <FaApple/>
-          </a>
-          <a className="ml-5 p-5 border border-white rounded bg-gradient-download hover:shadow-none hover:text-2xl hover:border-2" href="" target="_blank">
-            <FaGooglePlay/>
-          </a>
+          <div className="flex flex-row items-center justify-center mt-8 mb-6 text-white text-2xl">
+            <a className="mr-5 p-4 border border-white rounded-full bg-gradient-download hover:shadow-none hover:text-2xl hover:border-2" href="" target="_blank"> 
+              <FaApple/>
+            </a>
+            <a className="ml-5 p-4 border border-white rounded-full bg-gradient-download hover:shadow-none hover:text-2xl hover:border-2" href="" target="_blank">
+              <FaGooglePlay/>
+            </a>
           </div>
         </main>
         <div className="w-full h-full bg-black text-white">
