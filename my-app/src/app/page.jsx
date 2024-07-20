@@ -31,8 +31,7 @@ export default function Home() {
             </div>
           </div>
         </main>
-        <div className="pattern-zigzag-3d pattern-blue-500 pattern-bg-black 
-          pattern-size-6 pattern-opacity-20 w-full h-full bg-black text-white">
+        <div className="pattern-zigzag-3d pattern-blue-500 pattern-bg-black pattern-size-6 pattern-opacity-20 w-full h-full bg-black text-white">
             hi
         </div>
       </section>
