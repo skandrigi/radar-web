@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </section>
       <section id="faq">
-        hi
+        faq
       </section>
     </div>
   );
