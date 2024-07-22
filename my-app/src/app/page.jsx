@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
 import CountdownTimer from './components/CountdownTimer.jsx';
+import Faq from './components/Faq.jsx';
 
 export default function Home() {
   return (
@@ -38,23 +39,7 @@ export default function Home() {
         </div>
       </section>
       <section id="faq" className='bg-gray-400 border-80 flex items-center justify-center w-full h-full p-10'>
-        <div id="header" className='text-8xl text-white font-bold mt-6'>
-          FAQ
-        </div>
-        <div className='flex items-center justify-center'>
-          <div className='text-4xl text-white mt-6'>
-            <p>What is Radar?</p>
-            <p>Radar is a mobile app that helps you discover events happening on your campus.</p>
-          </div>
-          <div className='text-4xl text-white mt-6'>
-            <p>When will Radar be available?</p>
-            <p>Radar will be available for download on August 19, 2024.</p>
-          </div>
-          <div className='text-4xl text-white mt-6'>
-            <p>How can I get in touch with the Radar team?</p>
-            <p>You can reach out to us at</p>
-          </div>
-        </div>
+        <Faq/>
       </section>
     </div>
   );
