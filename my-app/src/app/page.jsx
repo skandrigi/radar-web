@@ -1,9 +1,13 @@
 import React from 'react';
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
-import CountdownTimer from './components/CountdownTimer.jsx';
 import Faq from './components/Faq.jsx';
+import dynamic from 'next/dynamic';
 
 export default function Home() {
+  const CountdownTimerSSR = dynamic(() => import('./components/CountdownTimer.jsx'), {
+    ssr: false,
+  });
+
   return (
     <div className="relative" id="home">
       <div className="fixed top-0 left-0 w-full z-10 text-white">
@@ -34,7 +38,7 @@ export default function Home() {
         </main>
         <div className="w-full h-full bg-black text-white">
           <a className="text-8xl text-white flex font-bold items-center justify-center min-h-screen hover:underline" href="https://bit.ly/3x4FTdK" target="_blank">
-            <CountdownTimer targetDate="2024-08-19T17:00:00" />
+            <CountdownTimerSSR targetDate="2024-08-19T17:00:00" />
           </a>
         </div>
       </section>
