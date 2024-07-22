@@ -4,11 +4,11 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const Faq = () => {
   return (
     <div className="flex flex-col items-center justify-center overflow-auto max-w-[800px] w-full">
-        <div id="header" className='text-9xl text-white font-bold mt-6'>
+        <div id="header" className='text-9xl text-white font-bold mt-6 mb-6'>
           FAQ
         </div>
         <div className="text-white">
-        <Accordion type="single" collapsible>
+        <Accordion type="single" collapsible className="overflow-hidden">
             <AccordionItem value="what-is-radar">
             <AccordionTrigger className="text-4xl mt-6">What is Radar?</AccordionTrigger>
             <AccordionContent className="text-4xl">
@@ -24,7 +24,7 @@ const Faq = () => {
             <AccordionItem value="contact">
             <AccordionTrigger className="text-4xl mt-6">How can I get in touch with the Radar team?</AccordionTrigger>
             <AccordionContent className="text-4xl">
-                You can reach out to us at
+                You can reach out to us at radarapp.events @ gmail.com
             </AccordionContent>
             </AccordionItem>
         </Accordion>
