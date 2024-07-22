@@ -37,8 +37,8 @@ export default function Home() {
           </div>
         </main>
         <div className="w-full h-full bg-black text-white">
-          <a className="text-8xl text-white flex font-bold items-center justify-center sm:mt-[200px] l:p-0 xl:p-0 xl:mt-[362px] sm: min-h-0 md:min-h-screen lg:min-h-0 xl:min-h-0 hover:underline" href="https://bit.ly/3x4FTdK" target="_blank">
-            <CountdownTimerSSR targetDate="2024-08-19T17:00:00" />
+          <a className="text-8xl text-white flex font-bold items-center justify-center sm:mt-[200px] l:p-0 xl:p-0 xl:mt-[362px] sm: min-h-0 md:min-h-screen lg:min-h-0 xl:min-h-0" href="https://duiq0o0da2d.typeform.com/to/xMd2I4mn" target="_blank">
+            <CountdownTimerSSR targetDate="2024-08-19T17:00:00"/>
           </a>
         </div>
       </section>
