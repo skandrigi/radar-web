@@ -8,7 +8,7 @@ const Faq = () => {
           FAQ
         </div>
         <div className="text-white">
-        <Accordion type="single" collapsible className="overflow-hidden">
+        <Accordion type="single" collapsible className="sm:flex sm:flex-col sm:items-center sm:justify-center overflow-hidden md:flex-none md:block md:items-stretch md:justify-start">
             <AccordionItem value="what-is-radar">
             <AccordionTrigger className="text-4xl mt-6">What is Radar?</AccordionTrigger>
             <AccordionContent className="text-4xl">

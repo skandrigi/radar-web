@@ -11,7 +11,6 @@ const CountdownTimer = ({ targetDate }) => {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
         hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
         minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
       };
     }
 
@@ -30,7 +29,7 @@ const CountdownTimer = ({ targetDate }) => {
 
   return (
     <div>
-      {timeLeft.days || 0} : {timeLeft.hours || 0} : {timeLeft.minutes || 0} : {timeLeft.seconds || 0}
+      {timeLeft.days || 0} : {timeLeft.hours || 0} : {timeLeft.minutes || 0} 
     </div>
   );
 };

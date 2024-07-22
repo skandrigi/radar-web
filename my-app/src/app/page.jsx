@@ -24,7 +24,7 @@ export default function Home() {
           <div className="text-9xl text-white font-bold">
             Radar
           </div>
-          <div className="text-xl mt-6 sm:ml-4">
+          <div className="text-xl mt-6 sm:flex sm:flex-col md:flex-none sm:justify-center md:justify-start ">
             Your Campus, Your Events. Based in College Station.
           </div>
           <div className="flex flex-row items-center justify-center mt-8 mb-6 text-white text-2xl">
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
         </main>
         <div className="w-full h-full bg-black text-white">
-          <a className="text-8xl text-white flex font-bold items-center justify-center min-h-screen hover:underline" href="https://bit.ly/3x4FTdK" target="_blank">
+          <a className="text-8xl text-white flex font-bold items-center justify-center sm:mt-[200px] l:p-0 xl:p-0 xl:mt-[362px] sm: min-h-0 md:min-h-screen lg:min-h-0 xl:min-h-0 hover:underline" href="https://bit.ly/3x4FTdK" target="_blank">
             <CountdownTimerSSR targetDate="2024-08-19T17:00:00" />
           </a>
         </div>
