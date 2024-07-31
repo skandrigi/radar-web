@@ -42,7 +42,12 @@ export default function Home() {
           <CountdownTimerSSR targetDate="2024-08-19T17:00:00"/>
         </a>
       </section>
-      <section id="faq" className='bg-gray-400 border-80 flex items-center justify-center w-full h-full p-10'>
+      <section>
+        <div className='text-download text-2xl'>
+          Meet the Team
+        </div>
+      </section> 
+      <section id="faq" className='bg-slate-700 border-80 flex items-center justify-center w-full h-full p-10'>
         <Faq/>
       </section>
     </div>

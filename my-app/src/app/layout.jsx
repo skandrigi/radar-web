@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Radar Events",
+  title: "Radar",
   description: "Your Campus, Your Events. Based in College Station.",
 };
 
