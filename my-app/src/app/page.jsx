@@ -18,13 +18,13 @@ export default function Home() {
             <li><a href="#faq" className="hover:text-gray-300 hover:underline">FAQ</a></li>
           </ul>
         </div>
-      </div>
-      <section className="sm:flex sm:flex-col md:grid md:grid-cols-2">
+        </div>
+      <section className="sm:flex sm:flex-col">
         <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-custom text-white">
           <div className="text-9xl text-white font-bold">
             Radar
           </div>
-          <div className="text-xl mt-6 sm:flex sm:flex-col md:flex-none sm:justify-center md:justify-start ">
+          <div className="text-xl mt-6 sm:flex sm:flex-col md:flex-none sm:justify-center md:justify-start text-slate-300">
             Your Campus, Your Events. Based in College Station.
           </div>
           <div className="flex flex-row items-center justify-center mt-8 mb-6 text-white text-2xl">
@@ -36,11 +36,11 @@ export default function Home() {
             </a>
           </div>
         </main>
-        <div className="w-full h-full bg-black text-white">
-          <a className="text-8xl text-white flex font-bold items-center justify-center sm:mt-[200px] l:p-0 xl:p-0 xl:mt-[362px] sm: min-h-0 md:min-h-screen lg:min-h-0 xl:min-h-0" href="https://duiq0o0da2d.typeform.com/to/xMd2I4mn" target="_blank">
-            <CountdownTimerSSR targetDate="2024-08-19T17:00:00"/>
-          </a>
-        </div>
+      </section>
+      <section className='text-center cursor-auto text-4xl p-28 bg-black text-white'>
+        <a className="hover:underline" href="https://duiq0o0da2d.typeform.com/to/xMd2I4mn" target="_blank">
+          <CountdownTimerSSR targetDate="2024-08-19T17:00:00"/>
+        </a>
       </section>
       <section id="faq" className='bg-gray-400 border-80 flex items-center justify-center w-full h-full p-10'>
         <Faq/>
