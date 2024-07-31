@@ -13,15 +13,16 @@ export default function Home() {
       <div className="fixed top-0 left-0 w-full z-10 text-white">
         <div className="mx-auto flex justify-end items-center w-full">
           <span role="img" aria-label="party" className="absolute select-none left-8 top-4 text-2xl">🎉</span>
-          <ul className="flex space-x-4 mr-8 mt-4 text-xl"> 
-            <li><a href="#home" className="hover:text-gray-300 hover:underline">Home</a></li>
-            <li><a href="#faq" className="hover:text-gray-300 hover:underline">FAQ</a></li>
+          <ul className="flex space-x-9 mr-8 mt-4 text-xl"> 
+            <li><a href="#home" className="hover:text-slate-200 hover:underline drop-shadow-xl">Home</a></li>
+            <li><a href="#team" className="hover:text-slate-200 hover:underline">Meet the Team</a></li>
+            <li><a href="#faq" className="hover:text-slate-200 hover:underline">FAQ</a></li>
           </ul>
         </div>
         </div>
       <section className="sm:flex sm:flex-col">
         <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-custom text-white">
-          <div className="text-9xl text-white font-bold">
+          <div className="text-9xl text-white font-bold drop-shadow-xl">
             Radar
           </div>
           <div className="text-xl mt-6 sm:flex sm:flex-col md:flex-none sm:justify-center md:justify-start text-slate-300">
@@ -42,8 +43,8 @@ export default function Home() {
           <CountdownTimerSSR targetDate="2024-08-19T17:00:00"/>
         </a>
       </section>
-      <section>
-        <div className='text-download text-2xl'>
+      <section className='p-6'>
+        <div className='text-gradient-download text-center text-8xl font-bold' id="team">
           Meet the Team
         </div>
       </section> 
